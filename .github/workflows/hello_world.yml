@@ -11,13 +11,14 @@ jobs:
       - name: check out repository code
         uses: actions/checkout@v4
       - run: |
+          #Enable aliases on github worker
+          shopt -s expand_aliases
           echo "$(cat hello_world.txt)"
           mkdir dirtest
           cd dirtest
           touch aaa.txt
           cd ..
           #tree
-          shopt -s expand_aliases
           alias ll="ls"
           ll
           echo "Pipeline ended"
