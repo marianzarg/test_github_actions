@@ -10,10 +10,11 @@ jobs:
     steps:
       - name: check out repository code
         uses: actions/checkout@v4
-      - run: echo "$(cat hello_world.txt)"
-             "TEST"
-             mkdir dirtest
-             cd dirtest
-             touch aaa.txt
-             cd ..
-             ll
+      - run: |
+          echo "$(cat hello_world.txt)"
+          "TEST"
+          mkdir dirtest
+          cd dirtest
+          touch aaa.txt
+          cd ..
+          ll
