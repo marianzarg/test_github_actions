@@ -11,6 +11,7 @@ jobs:
       - name: check out repository code
         uses: actions/checkout@v4
       - run: |
+          #Testing GitHub Action scripts
           #Enable aliases on github worker
           shopt -s expand_aliases
           echo "$(cat hello_world.txt)"
