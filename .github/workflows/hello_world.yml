@@ -16,7 +16,7 @@ jobs:
           cd dirtest
           touch aaa.txt
           cd ..
-          tree
+          #tree
           shopt -s expand_aliases
           alias ll="ls"
           ll
