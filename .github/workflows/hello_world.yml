@@ -23,3 +23,4 @@ jobs:
           alias ll="ls"
           ll
           echo "Pipeline ended"
+      - run: echo "test una línea"
