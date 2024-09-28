@@ -17,6 +17,7 @@ jobs:
           touch aaa.txt
           cd ..
           tree
+          shopt -s expand_aliases
           alias ll="ls"
           ll
          
