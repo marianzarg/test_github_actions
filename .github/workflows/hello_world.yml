@@ -15,3 +15,5 @@ jobs:
              mkdir dirtest
              cd dirtest
              touch aaa.txt
+             cd ..
+             ll
