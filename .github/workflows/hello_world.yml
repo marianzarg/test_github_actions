@@ -16,5 +16,6 @@ jobs:
           cd dirtest
           touch aaa.txt
           cd ..
+          alias ll="ls"
           ll
           tree
