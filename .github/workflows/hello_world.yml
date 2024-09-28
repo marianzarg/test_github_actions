@@ -20,4 +20,4 @@ jobs:
           shopt -s expand_aliases
           alias ll="ls"
           ll
-         
+          echo "Pipeline ended"
